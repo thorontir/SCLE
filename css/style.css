@@ -15,15 +15,15 @@ h1 {
     font-size: 22.5px;
     font-family: Tungsten,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #FFFFFF;
-    text-shadow: 0 0 0.2em blue, 0 0 0.2em #8877FF, 0 0 0.2em blue;
+    text-shadow: 0 0 0.2em #193A86, 0 0 0.2em #8877FF, 0 0 0.2em #193A86;
     margin-bottom: 20px; 
 }
 
 h2 { 
-    font-size: 22.5px;
+    font-size: 30px;
     font-family: Tungsten,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #FFFFFF;
-    text-shadow: 0 0 0.2em blue, 0 0 0.2em blue, 0 0 0.2em blue;
+    text-shadow: 0 0 0.2em #193A86, 0 0 0.2em #193A86, 0 0 0.2em #193A86;
 }
 
 table, th, td {
@@ -56,7 +56,7 @@ menu, nav, section { display: block; }
 .image-gallery { margin: 20px 0 25px 0; }
 
 figure { 
-  width: 120px; 
+  width: 160px; 
   float: top; 
   margin: 20px 0 0 0; 
   background: #181818;
@@ -88,7 +88,7 @@ figure:hover {
 
 figure:focus {
     outline: none;
-    -webkit-transform: translate(-300px, -150px) rotate(deg) scale(4); -moz-transform: translate(-300px, -150px) rotate(0deg) scale(4);
+    -webkit-transform: translate(-300px, -140px) rotate(deg) scale(4); -moz-transform: translate(-300px, -140px) rotate(0deg) scale(4);
     -webkit-box-shadow: 0 3px 10px #162EAE; -moz-box-shadow: 0 3px 10px #162EAE;
     z-index: 9999;
 }
