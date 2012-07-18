@@ -44,6 +44,10 @@ td {
     padding-bottom: 15px;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
 
 article, aside, figure, footer, header, hgroup,
 menu, nav, section { display: block; }
