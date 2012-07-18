@@ -12,24 +12,18 @@ body {
 }
 
 h1 { 
-    font-size: 16px;
+    font-size: 22.5px;
     font-family: Tungsten,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #000000;
-    text-shadow: 0 0 0.2em #8877FF, 0 0 0.2em #8877FF, 0 0 0.2em #8877FF;
-    letter-spacing: -1px; 
-    text-rendering: optimizelegibility;
-    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em #8877FF, 0 0 0.2em blue;
     margin-bottom: 20px; 
 }
 
 h2 { 
-    font-size: 20px;
+    font-size: 22.5px;
     font-family: Tungsten,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #000000;
-    text-shadow: 0 0 0.2em #8877FF, 0 0 0.2em #8877FF, 0 0 0.2em #8877FF;
-    letter-spacing: -1px; 
-    text-rendering: optimizelegibility;
-    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 0 0.2em blue, 0 0 0.2em blue, 0 0 0.2em blue;
 }
 
 table, th, td {
@@ -45,7 +39,7 @@ td {
 }
 
 a {
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -54,7 +48,10 @@ menu, nav, section { display: block; }
 
 .group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
-#page-wrap { width: 1000px; margin: 0px auto; }
+#page-wrap { 
+    width: 1000px; 
+    margin: 0px auto;
+}
 
 .image-gallery { margin: 20px 0 25px 0; }
 
@@ -96,11 +93,8 @@ figure:focus {
     z-index: 9999;
 }
 
-#body-wrap{
-    margin: 0;
-    padding: 0;
+#body-wrap {
     width: 100%;
-    display: block; 
 }
 
 #top {
@@ -113,15 +107,14 @@ figure:focus {
 #content {
     margin-top: 15px;
     padding: 0;
-    width: 60%;
+    width: 55%;
     display: block; 
     float: left;
 }
 
 #right-col{
     margin: 0;
-    padding-left: 1%;
-    width: 39%;
+    width: 45%;
     display: block; 
     float: right;
 }
