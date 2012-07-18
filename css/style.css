@@ -88,7 +88,7 @@ figure:hover {
 
 figure:focus {
     outline: none;
-    -webkit-transform: translate(-300px, -140px) rotate(deg) scale(4); -moz-transform: translate(-300px, -140px) rotate(0deg) scale(4);
+    -webkit-transform: translate(-300px, -160px) rotate(deg) scale(3); -moz-transform: translate(-300px, -160px) rotate(0deg) scale(3);
     -webkit-box-shadow: 0 3px 10px #162EAE; -moz-box-shadow: 0 3px 10px #162EAE;
     z-index: 9999;
 }
