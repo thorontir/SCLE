@@ -28,6 +28,7 @@ h2 {
 
 table, th, td {
     border: none;
+    padding: 1px 15px;
     }
 
 tr {
@@ -41,6 +42,10 @@ td {
 a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+img {
+    border: none;
 }
 
 article, aside, figure, footer, header, hgroup,
@@ -57,17 +62,17 @@ menu, nav, section { display: block; }
 
 figure { 
   width: 160px; 
-  float: left; 
+  /* float: left; 
   margin: 0 40px 0 0; 
+  position: relative; */ 
   background: #181818;
   border: 10px solid #181818; 
   -webkit-box-shadow: 0 3px 10px #071871; 
   -moz-box-shadow: 0 3px 10px #071871;
-  -webkit-transform: rotate(5deg); 
-  -moz-transform: rotate(5deg);
+  /* -webkit-transform: rotate(5deg); 
+  -moz-transform: rotate(5deg); */
   -webkit-transition: all 0.7s ease; 
   -moz-transition: all 1s ease;
-  position: relative;  
 }
 
 figcaption { 
@@ -89,7 +94,8 @@ figure img {
 }
 
 figure:hover {
-    -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg);
+ /*   -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg); */
+    -webkit-transform: scale(1.05); -moz-transform: scale(1.05);
     -webkit-box-shadow: 0 3px 10px #162EAE; -moz-box-shadow: 0 3px 10px #162EAE;
 }
 
@@ -118,6 +124,12 @@ figure:focus {
 	padding-left: 10%;  
 }
 
+#content figure {
+  float: left; 
+  margin: 0 40px 0 0; 
+  position: relative; 
+}
+
 #right-col{
     padding-right: 10%;    
     display: block; 
@@ -127,9 +139,6 @@ figure:focus {
 .sidebar {
 }
 
-.sidebar img {
-    margin-right: 15px;
-}
 
 .sidebar:hover {
     outline: none;
