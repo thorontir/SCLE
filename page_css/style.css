@@ -95,14 +95,18 @@ figure img {
 
 figure:hover {
  /*   -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg); */
-    -webkit-transform: scale(1.05); -moz-transform: scale(1.05);
-    -webkit-box-shadow: 0 3px 10px #162EAE; -moz-box-shadow: 0 3px 10px #162EAE;
+    -webkit-transform: scale(1.05); 
+    -moz-transform: scale(1.05);
+    -webkit-box-shadow: 0 3px 10px #162EAE; 
+    -moz-box-shadow: 0 3px 10px #162EAE;
 }
 
 figure:focus {
     outline: none;
-    -webkit-transform: rotate(deg) scale(3); -moz-transform: rotate(0deg) scale(3);
-    -webkit-box-shadow: 0 3px 10px #162EAE; -moz-box-shadow: 0 3px 10px #162EAE;
+    -webkit-transform: scale(3); 
+    -moz-transform: scale(3);
+    -webkit-box-shadow: 0 3px 10px #162EAE; 
+    -moz-box-shadow: 0 3px 10px #162EAE;
     z-index: 9999;
 }
 
@@ -128,6 +132,11 @@ figure:focus {
   float: left; 
   margin: 0 40px 0 0; 
   position: relative; 
+}
+
+#content figure:focus {
+    -webkit-transform: translate(0px, -300px) scale(3); 
+    -moz-transform: translate(0px, -300px) scale(3);
 }
 
 #right-col{
