@@ -68,7 +68,7 @@ figure {
   background: #181818;
   border: 10px solid #181818; 
   -webkit-box-shadow: 0 3px 10px #071871; 
-  -moz-box-shadow: 0 3px 10px #071871;
+  box-shadow: 0 3px 10px #071871;
   /* -webkit-transform: rotate(5deg); 
   -moz-transform: rotate(5deg); */
   -webkit-transition: all 0.7s ease; 
@@ -98,7 +98,7 @@ figure:hover {
     -webkit-transform: scale(1.05); 
     -moz-transform: scale(1.05);
     -webkit-box-shadow: 0 3px 10px #162EAE; 
-    -moz-box-shadow: 0 3px 10px #162EAE;
+    box-shadow: 0 3px 10px #162EAE;
 }
 
 figure:focus {
@@ -106,7 +106,7 @@ figure:focus {
     -webkit-transform: scale(3); 
     -moz-transform: scale(3);
     -webkit-box-shadow: 0 3px 10px #162EAE; 
-    -moz-box-shadow: 0 3px 10px #162EAE;
+    box-shadow: 0 3px 10px #162EAE;
     z-index: 9999;
 }
 
