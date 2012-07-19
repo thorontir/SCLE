@@ -57,8 +57,8 @@ menu, nav, section { display: block; }
 
 figure { 
   width: 160px; 
-  float: top; 
-  margin: 20px 0 0 0; 
+  float: left; 
+  margin: 0 40px 0 0; 
   background: #181818;
   border: 10px solid #181818; 
   -webkit-box-shadow: 0 3px 10px #071871; 
@@ -67,14 +67,21 @@ figure {
   -moz-transform: rotate(5deg);
   -webkit-transition: all 0.7s ease; 
   -moz-transition: all 1s ease;
-  /*position: relative; */
+  position: relative;  
 }
 
 figcaption { 
   text-align: center; 
   display: block; 
-  font-size: 12px; 
+  font-size: 16px; 
   font-style: italic; 
+}
+
+figdate { 
+  text-align: center; 
+  display: block; 
+  font-size: 20px; 
+  font-weight:bold; 
 }
 
 figure img { 
@@ -88,7 +95,7 @@ figure:hover {
 
 figure:focus {
     outline: none;
-    -webkit-transform: translate(-300px, -160px) rotate(deg) scale(3); -moz-transform: translate(-300px, -160px) rotate(0deg) scale(3);
+    -webkit-transform: rotate(deg) scale(3); -moz-transform: rotate(0deg) scale(3);
     -webkit-box-shadow: 0 3px 10px #162EAE; -moz-box-shadow: 0 3px 10px #162EAE;
     z-index: 9999;
 }
@@ -105,16 +112,14 @@ figure:focus {
 }
 
 #content {
-    margin-top: 15px;
-    padding: 0;
-    width: 55%;
+    margin-top: 15px;      
     display: block; 
     float: left;
+	padding-left: 10%;  
 }
 
 #right-col{
-    margin: 0;
-    width: 45%;
+    padding-right: 10%;    
     display: block; 
     float: right;
 }
