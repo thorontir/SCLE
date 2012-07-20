@@ -15,7 +15,7 @@ h1 {
     font-size: 22.5px;
     font-family: Tungsten,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #FFFFFF;
-    text-shadow: 0 0 0.2em #193A86, 0 0 0.2em #8877FF, 0 0 0.2em #193A86;
+    text-shadow: 0 0 0.5em #193A86, 0 0 0.5em #193A86, 0 0 0.5em #193A86;
     margin-bottom: 20px; 
 }
 
@@ -23,7 +23,7 @@ h2 {
     font-size: 30px;
     font-family: Tungsten,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #FFFFFF;
-    text-shadow: 0 0 0.2em #193A86, 0 0 0.2em #193A86, 0 0 0.2em #193A86;
+    text-shadow: 0 0 0.5em #193A86, 0 0 0.5em #193A86, 0 0 0.5em #193A86;
 }
 
 table, th, td {
@@ -58,8 +58,6 @@ menu, nav, section { display: block; }
     margin: 0px auto;
 }
 
-.image-gallery { margin: 20px 0 25px 0; }
-
 figure { 
   width: 160px; 
   /* float: left; 
@@ -67,8 +65,8 @@ figure {
   position: relative; */ 
   background: #181818;
   border: 10px solid #181818; 
-  -webkit-box-shadow: 0 3px 10px #071871; 
-  box-shadow: 0 3px 10px #071871;
+  -webkit-box-shadow: 0 3px 10px #193A86; 
+  box-shadow: 0 3px 10px #193A86;
   /* -webkit-transform: rotate(5deg); 
   -moz-transform: rotate(5deg); */
   -webkit-transition: all 0.7s ease; 
@@ -97,16 +95,16 @@ figure:hover {
  /*   -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg); */
     -webkit-transform: scale(1.05); 
     -moz-transform: scale(1.05);
-    -webkit-box-shadow: 0 3px 10px #162EAE; 
-    box-shadow: 0 3px 10px #162EAE;
+    -webkit-box-shadow: 0 3px 10px #3567D9; 
+    box-shadow: 0 3px 10px #3567D9;
 }
 
 figure:focus {
     outline: none;
     -webkit-transform: scale(3); 
     -moz-transform: scale(3);
-    -webkit-box-shadow: 0 3px 10px #162EAE; 
-    box-shadow: 0 3px 10px #162EAE;
+    -webkit-box-shadow: 0 3px 10px #3567D9; 
+    box-shadow: 0 3px 10px #3567D9;
     z-index: 9999;
 }
 
@@ -125,7 +123,7 @@ figure:focus {
     margin-top: 15px;      
     display: block; 
     float: left;
-	padding-left: 10%;  
+	padding-left: 8%;  
 }
 
 #content figure {
